@@ -1,0 +1,23 @@
+{
+    "name": "bot-omoloko",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js",
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.20"
+    },
+    "dependencies": {
+        "@vk-io/hear": "^1.1.0",
+        "axios": "^1.2.1",
+        "dotenv": "^16.0.3",
+        "mongoose": "^6.8.3",
+        "vk-io": "^4.7.0"
+    }
+}
